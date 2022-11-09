@@ -1,0 +1,9 @@
+<data>
+   <record id="seq_payment_reminder" model="ir.sequence">
+       <field name="name">Payment Reminder Sequence</field>
+       <field name="code">payment.reminder.configs</field>
+       <field name="prefix">PYRM/</field>
+       <field name="padding">4</field>
+       <field name="company_id" eval="False"/>
+   </record>
+</data>

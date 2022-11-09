@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="ir_cron_payment_reminder_auto_mail_sent" model="ir.cron">
+        <field name="name">Payment Reminder; Sent A Reminder Mail</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="model_id" ref="model_payment_reminder_configs"/>
+        <field name="code">model.sent_mail_cron()</field>
+        <field name="state">code</field>
+    </record>
+</odoo>
